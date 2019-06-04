@@ -15,6 +15,8 @@ public class DogsinitialApplication
     public static void main(String[] args)
     {
         ourDogList = new DogList();
+
+
         ApplicationContext ctx = SpringApplication.run(DogsinitialApplication.class, args);
 
         DispatcherServlet dispatcherServlet = (DispatcherServlet)ctx.getBean("dispatcherServlet");
