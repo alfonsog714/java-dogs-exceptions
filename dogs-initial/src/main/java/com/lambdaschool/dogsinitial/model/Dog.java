@@ -1,4 +1,4 @@
-package com.lambdaschool.dogsinitial;
+package com.lambdaschool.dogsinitial.model;
 
 import java.util.concurrent.atomic.AtomicLong;
 
@@ -25,6 +25,9 @@ public class Dog
         this.weight = toClone.weight;
         this.apartmentSuitable = toClone.isApartmentSuitable();
     }
+
+    public Dog()
+    {}
 
     public long getId()
     {
